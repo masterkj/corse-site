@@ -1,9 +1,0 @@
-$main-blue : #734342;
-body{
-  color : $main-blue;
-  padding : 30em;
-  columns : 300px 2;
-  p{
-    font-size: 20px;
-  }
-}

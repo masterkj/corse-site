@@ -25,5 +25,6 @@ nbproject
 *.sublime-workspace
 *.komodoproject
 .komodotools
+*.psd
 _notes
 dwsync.xml

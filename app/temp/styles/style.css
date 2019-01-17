@@ -1,9 +1,0 @@
-body{
-  color : #734342;
-  padding : 30em;
-  -webkit-columns : 300px 2;
-          columns : 300px 2;
-}
-body p{
-    font-size: 20px;
-  }
