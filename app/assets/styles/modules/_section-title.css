@@ -19,6 +19,7 @@
     @mixin atMedium {
       display: inline-block;
       margin-right: .7rem;
+      margin-bottom: 0;
       margin-left: 0;
     }
   }

@@ -1,0 +1,37 @@
+.feature-block {
+  position: relative;
+  padding-top: 1.4rem;
+
+  @mixin atMedium {
+    padding-left : 100px;
+    padding-bottom: 2.5rem;
+    padding-top: 0; 
+  }
+
+  &__icon {
+    display: block;
+    margin: 0 auto;
+
+    @mixin atMedium {
+      position: absolute;
+      left: 0;
+    }
+  }
+
+  &__title {
+    margin-bottom: .5em;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+
+    @mixin atMedium {
+      text-align: left;
+      font-size: 1.8rem;
+    }
+  }
+
+  p {
+    text-align: justify;
+    font-weight: 300;
+  }
+}
