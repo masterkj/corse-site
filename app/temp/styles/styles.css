@@ -573,12 +573,13 @@ a {
 
 .page-section--blue {
     background-color: #2f5572;
+    color: #fff;
   }
 
 .wrapper {
   padding-left: 18px;
   padding-right: 18px;
-  max-width: 1236px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -680,6 +681,11 @@ a {
       width: 37%;
     }
 
+    .row__medium-6 {
+      float: left;
+      width: 50%;
+    }
+
     .row__medium-8 {
       float: left;
       width: 66.66%;
@@ -694,8 +700,16 @@ a {
     margin-right: -65px;
   }
 
+.row--gutters-large {
+    margin-right: -100px;
+  }
+
 .row--gutters >div {
     padding-right: 65px;
+  }
+
+.row--gutters-large >div {
+    padding-right: 100px;
   }
 
 .margin--t0 {
@@ -704,7 +718,7 @@ a {
 
 .generic-content-container p {
     line-height: 1.65;
-    margin: 1.8rem 0;
+    margin:0 0 1.8rem 0;
   }
 
 @media (min-width: 800px) {
@@ -717,4 +731,85 @@ a {
 .generic-content-container p a {
     font-weight: 700;
     text-decoration: none;
+  }
+
+.section-title {
+  font-size: 2.4rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+
+.section-title {
+    font-size: 3.125rem
+}
+  }
+
+.section-title strong {
+    font-weight: 500;
+  }
+
+.section-title__icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .2em;
+  }
+
+@media (min-width: 800px) {
+
+.section-title__icon {
+      display: inline-block;
+      margin-right: .7rem;
+      margin-bottom: 0;
+      margin-left: 0
+  }
+  }
+
+.feature-block {
+  position: relative;
+  padding-top: 1.4rem;
+}
+
+@media (min-width: 800px) {
+
+.feature-block {
+    padding-left : 100px;
+    padding-bottom: 2.5rem;
+    padding-top: 0
+}
+  }
+
+.feature-block__icon {
+    display: block;
+    margin: 0 auto;
+  }
+
+@media (min-width: 800px) {
+
+.feature-block__icon {
+      position: absolute;
+      left: 0
+  }
+  }
+
+.feature-block__title {
+    margin-bottom: .5em;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+@media (min-width: 800px) {
+
+.feature-block__title {
+      text-align: left;
+      font-size: 1.8rem
+  }
+  }
+
+.feature-block p {
+    text-align: justify;
+    font-weight: 300;
   }
