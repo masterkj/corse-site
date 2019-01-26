@@ -10,6 +10,7 @@
 *~
 *.sass-cache
 node_modules/
+*.psd
 .tmp/
 
 # OS or Editor folders
@@ -25,6 +26,5 @@ nbproject
 *.sublime-workspace
 *.komodoproject
 .komodotools
-*.psd
 _notes
 dwsync.xml
