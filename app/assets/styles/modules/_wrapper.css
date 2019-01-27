@@ -6,9 +6,26 @@
   margin-right: auto;
   overflow: hidden;
 
+  &--no-padding-untill-midium {
+    padding: 0;
+    @mixin atMedium {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
+
+  &--no-padding-untill-large {
+    padding: 0;
+    @mixin atLarge {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
+
   &--medium {
     max-width: 980px;
   }
+
 
   &--b-margin {
     margin-bottom: 1rem;

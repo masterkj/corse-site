@@ -1,5 +1,5 @@
 .section-title {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-weight: 300;
   text-align: center;
 
@@ -11,12 +11,18 @@
     font-weight: 500;
   }
 
+  &--blue {
+    color: $mainBlue;
+  }
+
   &__icon {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: .2em;
     @mixin atMedium {
+      position: relative;
+      top: .2em;
       display: inline-block;
       margin-right: .7rem;
       margin-bottom: 0;
