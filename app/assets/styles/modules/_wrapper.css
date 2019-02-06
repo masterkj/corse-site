@@ -26,6 +26,10 @@
     max-width: 980px;
   }
 
+  &--narrow {
+    max-width: 460px;
+  }
+
 
   &--b-margin {
     margin-bottom: 1rem;
