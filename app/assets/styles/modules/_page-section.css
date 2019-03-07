@@ -27,7 +27,7 @@
     padding-bottom: 0px;
     @mixin atLarge {
       &.lazyloaded {
-        background: url('/assets/images/testimonials-bg.jpg') top center no-repeat ;
+        background: url('../../assets/images/testimonials-bg.jpg') top center no-repeat ;
         background-size: cover;
       }
       padding: 4.5rem 0;

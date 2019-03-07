@@ -4,7 +4,7 @@ instade you can edit gulp/templates/sprite */
 {{#shapes}}
   {{#first}}
   .icon {
-    background: url('/assets/images/sprites/{{{sprite}}}');
+    background: url('../../assets/images/sprites/{{{sprite}}}');
   }
   {{/first}}
   .icon--{{base}} {
